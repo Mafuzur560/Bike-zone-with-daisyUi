@@ -137,11 +137,30 @@
     <main class="md:container md:mx-auto">
         <!-- Fetured Bikes section -->
         <section>
+          <div class="mt-24 text-center">
+            <h1 class="text-5xl font-bold">Fetured Bikes In This Year</h1>
+            <p class="py-2 text-orange-primary">Best bike collection.</p>
+          </div>
 
-            <!-- latest News -->
+          <div class="grid gap-4 grid-cols-1 md:grid-cols-3 my-8">
+            <!-- 01 bike -->
+            <div class="card ">
+              <figure><img src="images/others/feature-bike.png" alt="Shoes" /></figure>
+            </div>
+            <!-- 02 bike -->
+            <div class="card ">
+              <figure><img src="images/slider/bike3.png" alt="Shoes" /></figure>
+            </div>
+            <!-- 03 bike -->
+            <div class="card ">
+              <figure><img src="images/others/feature-bike.png" alt="Shoes" /></figure>
+            </div>
+          </div>
         </section>
+
+        <!-- latest News -->
         <section class="my-24">
-            <h3 class="text-5xl font-semibold text-center mb-20">latest News</h3>
+            <h3 class="text-5xl font-semibold text-center mb-20 ">latest News</h3>
             <div class="grid gap-5 grid-cols-1 md:grid-cols-3 ">
 
                 <!-- 01 card -->
@@ -246,7 +265,7 @@
             <h3 class="text-5xl font-semibold text-center mb-20">Frequently Asked <span class="text-orange-400">Questions</span></h3>
             <div class="hero min-h-screen ">
                 <div class="hero-content flex-col md:gap-24 lg:flex-row">
-                  <img src="images/others/faq.png" class="max-w-sm rounded-lg " />
+                  <img src="images/others/faq.png" class="w-3/4 md:max-w-sm rounded-lg " />
                   <div class="space-y-1">
 
                     <!-- 01 question -->
@@ -300,8 +319,18 @@
         </section>
 
     </main>
-    <footer>
-
+    <footer class="footer p-10 bg-neutral text-neutral-content justify-between">
+      <div class="mt-4">
+        <h4 class="text-xl font-medium">Download Now</h4>
+        <p>© 2020 bike. All rights reserved</p>
+      </div> 
+      <div>
+        <span class="footer-title">Social</span> 
+        <div class="grid grid-cols-1 gap-4 ">
+          <a><img class="w-36" src="images/others/android.png" alt=""></a> 
+          <a><img class="w-36" src="images/others/ios.png" alt=""></a> 
+        </div>
+      </div>
     </footer>
 </body>
 </html>
